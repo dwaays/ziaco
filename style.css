@@ -241,3 +241,60 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.statement {
+  padding: 100px 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.statement h2 {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.statement p {
+  font-size: 17px;
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+.assessment {
+  padding: 100px 40px;
+  text-align: center;
+  background-color: #faf7f4;
+}
+
+.assessment h2 {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c9a96e;
+  margin-bottom: 16px;
+}
+
+.assessment p {
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form select, form textarea {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border: 1px solid #e8e0d8;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: Georgia, serif;
+  color: #1a1a1a;
+  border-radius: 2px;
+}
