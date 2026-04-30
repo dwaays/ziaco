@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: Georgia, serif;
-  background-color: #faf7f4;
-  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  background-color: #F6F1EA;
+  color: #1A1A1A;
 }
 
 nav {
@@ -27,6 +27,10 @@ nav {
   letter-spacing: 4px;
   font-family: Georgia, serif;
   color: #1a1a1a;
+}
+
+.logo, h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
 }
 
 .nav-links a {
