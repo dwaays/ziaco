@@ -10,6 +10,10 @@ body {
   color: #1A1A1A;
 }
 
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
