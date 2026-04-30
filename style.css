@@ -33,6 +33,13 @@ nav {
   color: #1a1a1a;
 }
 
+.logo-img {
+  height: 40px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+}
+
 .logo, h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
@@ -305,4 +312,41 @@ form input, form select, form textarea {
   font-family: Georgia, serif;
   color: #1a1a1a;
   border-radius: 2px;
+}
+
+footer {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #1A1A1A;
+  color: #888888;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: #888888;
+  text-decoration: none;
+  margin: 0 16px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #C8A96A;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 11px;
+  letter-spacing: 1px;
 }
