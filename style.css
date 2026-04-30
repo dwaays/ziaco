@@ -402,3 +402,30 @@ footer a {
   .services-grid { grid-template-columns: 1fr; }
   .path-grid { grid-template-columns: 1fr; }
 }
+
+.page-hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #F6F1EA;
+  border-bottom: 1px solid #e8e0d8;
+}
+
+.page-hero h1 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.skincare-intro {
+  padding: 100px 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.skincare-intro h2 {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C8A96A;
+  margin-bottom: 50px;
+}
