@@ -26,13 +26,6 @@ nav {
   z-index: 999;
 }
 
-.logo {
-  font-size: 22px;
-  letter-spacing: 4px;
-  font-family: Georgia, serif;
-  color: #1a1a1a;
-}
-
 .logo-img {
   height: 35px;
   width: auto;
@@ -41,13 +34,9 @@ nav {
   display: block;
 }
 
-.logo, h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-}
-
 .nav-links a {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #1A1A1A;
   margin-left: 30px;
   font-size: 12px;
   letter-spacing: 2px;
@@ -60,33 +49,39 @@ nav {
   background: none;
   border: none;
   cursor: pointer;
-  color: #1a1a1a;
+  color: #1A1A1A;
 }
 
 .hero {
-  text-align: center;
-  padding: 140px 20px;
-  background-image: url('https://i.imgur.com/X8URdj4.webp');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
-  background-color: #F6F1EA;
+  text-align: center;
+  padding: 160px 20px;
+  background-image: url('https://i.imgur.com/X8URdj4.webp');
+  background-size: cover;
+  background-position: center;
 }
 
-.hero::before {
-  content: '';
+.hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(246, 241, 234, 0.85);
+  background: rgba(246, 241, 234, 0.65);
 }
 
-.hero-content, .hero h1, .tagline, .sub, .hero-buttons {
+.hero-content {
   position: relative;
   z-index: 1;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
 }
 
 .tagline {
@@ -94,25 +89,14 @@ nav {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #C8A96A;
-  margin-bottom: 24px;
-}
-
-.hero h1 {
-  font-size: 48px;
-  font-weight: normal;
-  line-height: 1.4;
-  color: #1a1a1a;
   margin-bottom: 20px;
 }
 
 .sub {
-  font-size: 17px;
-  color: #888888;
+  font-size: 16px;
+  color: #555555;
   margin-bottom: 40px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.8;
+  line-height: 1.9;
 }
 
 .hero-buttons {
@@ -123,8 +107,8 @@ nav {
 }
 
 .primary-btn {
-  background-color: #1a1a1a;
-  color: #faf7f4;
+  background-color: #1A1A1A;
+  color: #F6F1EA;
   border: none;
   padding: 14px 32px;
   font-size: 12px;
@@ -132,36 +116,20 @@ nav {
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 2px;
+  font-family: 'Inter', sans-serif;
 }
 
 .secondary-btn {
   background-color: transparent;
-  color: #1a1a1a;
-  border: 1px solid #1a1a1a;
+  color: #1A1A1A;
+  border: 1px solid #1A1A1A;
   padding: 14px 32px;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 2px;
-}
-
-@media (max-width: 768px) {
-  .hamburger { display: block; }
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 65px;
-    left: 0;
-    width: 100%;
-    background-color: #F6F1EA;
-    padding: 20px 40px;
-    border-bottom: 1px solid #f0e8e0;
-  }
-  .nav-links.open { display: flex; }
-  .nav-links a { margin: 10px 0; }
-  .hero h1 { font-size: 32px; }
+  font-family: 'Inter', sans-serif;
 }
 
 .choose-path {
@@ -171,7 +139,6 @@ nav {
 }
 
 .choose-path h2 {
-  font-family: 'Playfair Display', serif;
   font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -200,7 +167,6 @@ nav {
 }
 
 .path-card h3 {
-  font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: normal;
   margin-bottom: 16px;
@@ -213,16 +179,10 @@ nav {
   margin-bottom: 30px;
 }
 
-@media (max-width: 768px) {
-  .path-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .what-we-do {
   padding: 100px 40px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #F6F1EA;
 }
 
 .what-we-do h2 {
@@ -243,7 +203,7 @@ nav {
 
 .service-card {
   padding: 40px 30px;
-  background-color: #F6F1EA;
+  background-color: #ffffff;
   border-radius: 4px;
 }
 
@@ -270,20 +230,14 @@ nav {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #1a1a1a;
+  color: #1A1A1A;
   text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .how-it-works {
   padding: 100px 40px;
   text-align: center;
-  background-color: #F6F1EA;
+  background-color: #ffffff;
 }
 
 .how-it-works h2 {
@@ -309,7 +263,7 @@ nav {
 .step-number {
   font-size: 36px;
   color: #f2c4c4;
-  font-family: Georgia, serif;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 16px;
 }
 
@@ -327,16 +281,10 @@ nav {
   line-height: 1.8;
 }
 
-@media (max-width: 768px) {
-  .steps {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .statement {
   padding: 100px 40px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #F6F1EA;
 }
 
 .statement h2 {
@@ -355,7 +303,7 @@ nav {
 .assessment {
   padding: 100px 40px;
   text-align: center;
-  background-color: #F6F1EA;
+  background-color: #ffffff;
 }
 
 .assessment h2 {
@@ -383,10 +331,10 @@ form input, form select, form textarea {
   padding: 14px;
   margin-bottom: 16px;
   border: 1px solid #e8e0d8;
-  background-color: #ffffff;
+  background-color: #F6F1EA;
   font-size: 14px;
-  font-family: Georgia, serif;
-  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  color: #1A1A1A;
   border-radius: 2px;
 }
 
@@ -430,4 +378,25 @@ footer a {
   font-size: 11px;
   letter-spacing: 1px;
   color: #888888;
+}
+
+@media (max-width: 768px) {
+  .hamburger { display: block; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background-color: #F6F1EA;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0e8e0;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a { margin: 10px 0; }
+  .hero h1 { font-size: 36px; }
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .services-grid { grid-template-columns: 1fr; }
+  .path-grid { grid-template-columns: 1fr; }
 }
