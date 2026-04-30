@@ -318,8 +318,8 @@ form input, form select, form textarea {
 footer {
   padding: 60px 40px;
   text-align: center;
-  background-color: #1A1A1A;
-  color: #888888;
+  background-color: #F6F1EA;
+  border-top: 1px solid #e8e0d8;
 }
 
 .footer-logo {
@@ -336,7 +336,7 @@ footer {
 }
 
 .footer-links a {
-  color: #888888;
+  color: #1A1A1A;
   text-decoration: none;
   margin: 0 16px;
   font-size: 12px;
@@ -354,4 +354,5 @@ footer a {
   margin-top: 20px;
   font-size: 11px;
   letter-spacing: 1px;
+  color: #888888;
 }
