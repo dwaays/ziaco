@@ -73,6 +73,33 @@
     </div>
     <a href="#assessment"><button class="primary-btn">Get Your Personalized Routine</button></a>
   </section>
+  
+  <section class="statement">
+  <h2>You don't need more products.</h2>
+  <p>You need the right ones — and the right guidance.</p>
+  <a href="#assessment"><button class="primary-btn">Get Your Personalized Routine</button></a>
+</section>
+
+  <section class="assessment" id="assessment">
+    <h2>Start Your Free Skin Assessment</h2>
+    <p>Tell us about your skin so we can guide you properly.</p>
+    <form action="https://formspree.io/f/putID" method="POST">
+      <select name="skin_type">
+        <option value="">What is your skin type?</option>
+        <option>Oily</option>
+        <option>Dry</option>
+        <option>Combination</option>
+        <option>Sensitive</option>
+        <option>Normal</option>
+      </select>
+      <input type="text" name="concerns" placeholder="Main skin concerns (e.g. acne, dark spots)">
+      <input type="text" name="budget" placeholder="Your budget for skincare products">
+      <input type="text" name="current_routine" placeholder="Your current skincare routine">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="tel" name="phone" placeholder="Your WhatsApp Number">
+      <button type="submit" class="primary-btn">Submit Assessment</button>
+    </form>
+  </section>
 
 </body>
 </html>
