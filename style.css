@@ -67,7 +67,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(246, 241, 234, 0.40);
+  background: rgba(246, 241, 234, 0.45);
 }
 
 .hero-content {
@@ -87,7 +87,7 @@ nav {
 .tagline {
   color: #ffffff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -96,7 +96,7 @@ nav {
 .sub {
   color: #555555;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 40px;
   line-height: 1.9;
 }
