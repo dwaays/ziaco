@@ -87,7 +87,7 @@ nav {
 .tagline {
   color: #C8A96A;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -96,6 +96,7 @@ nav {
 .sub {
   color: #555555;
   font-size: 16px;
+  font-weight: 200;
   margin-bottom: 40px;
   line-height: 1.9;
 }
