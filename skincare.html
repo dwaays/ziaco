@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare — Zia.&Co</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="https://i.imgur.com/nQiqTFQ.png" alt="Zia.&Co" class="logo-img">
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="skincare.html">Skincare</a>
+      <a href="aesthetic.html">Aesthetic Finds</a>
+    </div>
+    <button class="hamburger" id="hamburger">☰</button>
+  </nav>
+
+  <section class="page-hero">
+    <p class="tagline">Personalized Skincare</p>
+    <h1>Skincare That Actually Works</h1>
+    <p class="sub">Most people waste money trying products that don't suit their skin. At Zia.&Co we do things differently.</p>
+    <a href="#assessment"><button class="primary-btn">Start Free Skin Assessment</button></a>
+  </section>
+
+  <section class="skincare-intro">
+    <h2>Your Skin Journey</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <p class="service-icon">🌿</p>
+        <h3>Free Skin Assessment</h3>
+        <p>We review your skin concerns and help you understand what's going on. This does not include a full routine or product list.</p>
+        <a href="#assessment"><button class="primary-btn">Start Free</button></a>
+      </div>
+      <div class="service-card">
+        <p class="service-icon">✨</p>
+        <h3>Personalized Routine</h3>
+        <p>A complete morning and night skincare routine, product recommendations tailored to your budget, and clear usage instructions.</p>
+        <a href="https://wa.me/233508733169?text=Hi, I'd like a Personalized Skincare Routine" target="_blank"><button class="primary-btn">Get Routine — ₵150</button></a>
+      </div>
+      <div class="service-card">
+        <p class="service-icon">💎</p>
+        <h3>Ongoing Support</h3>
+        <p>Follow-ups, routine adjustments, continuous guidance and direct support until you see real results.</p>
+        <a href="https://wa.me/233508733169?text=Hi, I'd like Ongoing Skincare Support" target="_blank"><button class="primary-btn">Get Premium Support</button></a>
+      </div>
+      <div class="service-card">
+        <p class="service-icon">🛍️</p>
+        <h3>Product Sourcing</h3>
+        <p>If you prefer convenience we can help you get the exact products recommended. No stress, no confusion.</p>
+        <a href="https://wa.me/233508733169?text=Hi, I'd like help with Product Sourcing" target="_blank"><button class="primary-btn">Request Sourcing</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="assessment" id="assessment">
+    <h2>Start Your Free Skin Assessment</h2>
+    <p>Tell us about your skin so we can guide you properly.</p>
+    <form action="https://formspree.io/f/xaqvywoq" method="POST">
+      <select name="skin_type">
+        <option value="">What is your skin type?</option>
+        <option>Oily</option>
+        <option>Dry</option>
+        <option>Combination</option>
+        <option>Sensitive</option>
+        <option>Normal</option>
+      </select>
+      <input type="text" name="concerns" placeholder="Main skin concerns (e.g. acne, dark spots)">
+      <input type="text" name="budget" placeholder="Your budget for skincare products">
+      <input type="text" name="current_routine" placeholder="Your current skincare routine">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="tel" name="phone" placeholder="Your WhatsApp Number">
+      <button type="submit" class="primary-btn">Submit Assessment</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <img src="https://i.imgur.com/nQiqTFQ.png" alt="Zia.&Co" class="footer-logo">
+      <p>Personalized Skincare. Curated Living.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="skincare.html">Skincare</a>
+        <a href="aesthetic.html">Aesthetic Finds</a>
+      </div>
+      <a href="https://instagram.com/zia_asianglowgh" target="_blank">📸 @zia_asianglowgh</a>
+      <p class="copyright">© 2026 Zia.&Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
